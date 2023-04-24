@@ -5,7 +5,34 @@ import heroBcg from '../assets/hero-bcg.jpeg'
 import heroBcg2 from '../assets/hero-bcg-2.jpeg'
 
 const Hero = () => {
-  return <h4>hero</h4>
+  return (
+    <Wrapper className='section-center'>
+      <article className='content'>
+        <h1>
+          design your <br />
+          comfort zone
+        </h1>
+        <p>
+          Waistcoat seitan tofu neutra, in beard deep thundercats
+          franzen. Gastropub vexillologist sed man bun, pop-up bruh
+          iceland quinoa tacos you probably haven't heard of them.
+          Lorem ascot neutral slow-carb, praxis selvage kinfolk, in
+          ethical venmo skateboard ut.
+        </p>
+        <Link to='/products' className='btn hero-btn'>
+          shop now
+        </Link>
+      </article>
+      <article className='img-container'>
+        <img src={heroBcg} alt='nice table' className='main-img' />
+        <img
+          src={heroBcg2}
+          alt='person working'
+          className='accent-img'
+        />
+      </article>
+    </Wrapper>
+  )
 }
 
 const Wrapper = styled.section`

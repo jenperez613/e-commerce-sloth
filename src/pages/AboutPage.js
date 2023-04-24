@@ -4,7 +4,30 @@ import { PageHero } from '../components'
 import aboutImg from '../assets/hero-bcg.jpeg'
 
 const AboutPage = () => {
-  return <h4>about page</h4>
+  return (
+    <main>
+      <PageHero title='about' />
+      <Wrapper className='page section section-center'>
+        <img src={aboutImg} alt='nice desk' />
+        <article>
+          <div className='title'>
+            <h2>our story</h2>
+            <div className='underline'></div>
+          </div>
+          <p>
+            Flannel tousled biodiesel squid, ea organic dolor.
+            Sustainable 90's ullamco bicycle rights taxidermy heirloom
+            neutra irure ut excepteur cronut. Farm-to-table bespoke
+            schlitz master cleanse knausgaard plaid franzen pour-over
+            kickstarter. Heirloom dolore put a bird on it hell of.
+            Brooklyn sunt hell of flexitarian pabst wolf voluptate
+            butcher celiac gastropub raw denim ramps praxis consequat
+            cray. Enim cronut laborum banh mi cardigan JOMO meggings.
+          </p>
+        </article>
+      </Wrapper>
+    </main>
+  )
 }
 
 const Wrapper = styled.section`
