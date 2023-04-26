@@ -207,7 +207,7 @@ exports.handler = async (event, context, cb) => {
 };
 ```
 
-- restart the server "npm run dev"
+- restart the server "yarn run dev" or "npm run dev"
 - visit
 - [Products](http://localhost:8888/.netlify/functions/products)
 - [Single Product](http://localhost:8888/.netlify/functions/single-product)
@@ -217,7 +217,7 @@ exports.handler = async (event, context, cb) => {
 - already installed in main repo
 
 ```sh
-npm i airtable-node
+yarn add airtable-node OR npm i airtable-node
 
 ```
 
