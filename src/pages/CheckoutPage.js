@@ -26,5 +26,16 @@ const CheckoutPage = () => {
     </main>
   )
 }
-const Wrapper = styled.div``
+const Wrapper = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .empty {
+    text-align: center;
+    h2 {
+      margin-bottom: 1rem;
+      text-transform: none;
+    }
+  }
+`
 export default CheckoutPage
