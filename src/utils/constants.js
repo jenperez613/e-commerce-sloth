@@ -42,8 +42,10 @@ export const services = [
     text: 'Kinfolk 90s proident cray everyday carry dolor 3 wolf moon subway tile stumptown locavore consequat gluten-free spyplane ipsum',
   },
 ]
+export const products_url = `/.netlify/functions/products`
+export const single_product_url = `/.netlify/functions/single-product?id=`
 
-export const products_url =
-  'https://course-api.com/react-store-products'
+/* export const products_url =
+  'https://demo-comfy-store.netlify.app/react-store-products'
 
-export const single_product_url = `https://course-api.com/react-store-single-product?id=`
+export const single_product_url = `https://demo-comfy-store.netlify.app/react-store-single-product?id=` */

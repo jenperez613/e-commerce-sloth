@@ -9,8 +9,9 @@ const Hero = () => {
     <Wrapper className='section-center'>
       <article className='content'>
         <h1>
-          design your <br />
-          comfort zone
+          theories pass.
+          <br />
+          the frog remains.
         </h1>
         <p>
           Waistcoat seitan tofu neutra, in beard deep thundercats
@@ -24,12 +25,12 @@ const Hero = () => {
         </Link>
       </article>
       <article className='img-container'>
-        <img src={heroBcg} alt='nice table' className='main-img' />
         <img
-          src={heroBcg2}
-          alt='person working'
-          className='accent-img'
+          src={heroBcg}
+          alt='whites tree frogs'
+          className='main-img'
         />
+        <img src={heroBcg2} alt='dart frog' className='accent-img' />
       </article>
     </Wrapper>
   )

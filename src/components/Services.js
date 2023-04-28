@@ -9,7 +9,7 @@ const Services = () => {
         <article className='header'>
           <h3>
             {' '}
-            furniture <br /> custom built for you
+            largest <br /> selection of frogs & toads
           </h3>
           <p>
             Hoodie master cleanse JOMO subway tile fixie DIY green
