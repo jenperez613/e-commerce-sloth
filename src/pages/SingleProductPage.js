@@ -5,7 +5,7 @@ import { single_product_url as url } from '../utils/constants'
 import { formatPrice } from '../utils/helpers'
 import {
   Loading,
-  Error,
+  ErrorText,
   ProductImages,
   AddToCart,
   Stars,
@@ -41,7 +41,7 @@ const SingleProductPage = () => {
     return <Loading />
   }
   if (error) {
-    return <Error />
+    return <ErrorText />
   }
 
   const {

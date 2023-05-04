@@ -2,7 +2,7 @@ import React from 'react'
 import { useProductsContext } from '../context/products_context'
 import { Link } from 'react-router-dom'
 import styled from 'styled-components'
-import Error from './Error'
+import ErrorText from './ErrorText'
 import Loading from './Loading'
 import Product from './Product'
 
@@ -17,7 +17,7 @@ const FeaturedProducts = () => {
     return <Loading />
   }
   if (error) {
-    return <Error />
+    return <ErrorText />
   }
   return (
     <Wrapper className='section'>

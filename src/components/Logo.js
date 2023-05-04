@@ -1,6 +1,5 @@
 import React from 'react'
 import styled from 'styled-components'
-import { GrGremlin } from 'react-icons/gr'
 import { GiFrogPrince } from 'react-icons/gi'
 
 const Logo = () => {

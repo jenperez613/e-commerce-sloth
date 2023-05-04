@@ -7,7 +7,7 @@ import Hero from './Hero'
 import Services from './Services'
 import Contact from './Contact'
 import Loading from './Loading'
-import Error from './Error'
+import ErrorText from './ErrorText'
 import ProductImages from './ProductImages'
 import AddToCart from './AddToCart'
 import Filters from './Filters'
@@ -27,7 +27,7 @@ export {
   Services,
   Contact,
   Loading,
-  Error,
+  ErrorText,
   ProductImages,
   AddToCart,
   Filters,

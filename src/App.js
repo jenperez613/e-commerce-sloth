@@ -6,7 +6,7 @@ import {
   About,
   Cart,
   Checkout,
-  Error,
+  ErrorPage,
   PrivateRoute,
   Products,
   SingleProduct,
@@ -33,7 +33,7 @@ function App() {
               </PrivateRoute>
             }
           />
-          <Route path='*' element={<Error />} />
+          <Route path='*' element={<ErrorPage />} />
         </Routes>
         <Footer />
       </BrowserRouter>
