@@ -2,6 +2,8 @@
 
 ### [Live Site](https://froggeshop.netlify.app/)
 
+Use Test Card Number: 4242 4242 4242 4242 Exp: 04/24 CVC: 424 at checkout for the full experience! 
+
 ![Ecommerce Store](https://www.dropbox.com/s/9wszp8s9nplrpmc/froggeshop_screen.png?raw=1)
 
 ## Customize Project
