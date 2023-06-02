@@ -1,3 +1,9 @@
+## Frogge Shop
+
+### [Live Site](https://froggeshop.netlify.app/)
+
+![Ecommerce Store](https://www.dropbox.com/s/9wszp8s9nplrpmc/froggeshop_screen.png?raw=1)
+
 ## Customize Project
 
 #### .env vars
